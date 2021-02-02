@@ -1,6 +1,13 @@
 {
+  "scripts": {
+    "cypress": "cypress run"
+  },
   "devDependencies": {
     "cypress": "^6.4.0",
     "eslint-plugin-cypress": "^2.11.2"
+  },
+  "dependencies": {
+    "@testing-library/cypress": "^7.0.3",
+    "dotenv": "^8.2.0"
   }
 }
